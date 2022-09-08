@@ -12,3 +12,26 @@
   font-weight: 500;
 }
 //FIN DEL INDEX
+
+/* DIF. TIPO DE TOSTADO */
+/* MAIN */
+#fondo {
+  min-height: 100vh;
+  position: relative;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.promo {
+  position: relative;
+  z-index: 3;
+}
+
+/* FIN DE TIPO DE TOSTADO */
