@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <!-- HEAD -->
+
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,24 +15,26 @@
     />
     <link rel="shortcut icon" href="../img/logo.png" />
     <!-- link CSS -->
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
   </head>
   <!-- body -->
+
   <body>
     <!-- header -->
-    <header class="color-header">
+    <!-- header -->
+    <header class="header">
       <nav
         class="navbar navbar-expand-lg lg-light color-header shadow p-3 rounded"
       >
         <div
-          class="container-fluid d-flex.justify-content: space-between flex-wrap"
+          class="container-fluid nav-barista d-flex.justify-content: space-between flex-wrap"
         >
           <div>
-            <a class="navbar-brand" href="../index.html">
+            <a class="navbar-brand nombre-barista" href="../index.html">
               <img
                 src="../img/logo.png"
                 alt=""
@@ -52,18 +55,17 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse nav-barista" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="../index.html"
+                <a class="nav-link active" aria-current="page" href="#"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Preparaciones</a>
+                <a class="nav-link active" href="./preparaciones.html"
+                  >Preparaciones</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="./tipos-de-cafe.html"
@@ -152,18 +154,20 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer shadow p-3 rounded">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="https://m.facebook.com">FACEBOOK</a>
-      </div>
-      <div>
-        <a class="navbar-brand" href="https://www.instagram.com">INSTAGRAM</a>
-      </div>
+    <!-- FOOTER -->
+    <footer
+      class="footer d-flex justify-content-between shadow py-3 rounded container-fluid"
+    >
+      <a class="navbar-brand mx-4" href="https://m.facebook.com">FACEBOOK</a>
+      <a class="navbar-brand mx-4" href="https://www.instagram.com"
+        >INSTAGRAM</a
+      >
+      <a class="navbar-brand mx-4" href="#">LINKEDIN</a>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"
-  ></script>
 </html>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <!-- HEAD -->
+
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,9 +15,10 @@
     />
     <link rel="shortcut icon" href="../img/logo.png" />
     <!-- link CSS -->
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <!-- body -->
+
   <body>
     <!-- header -->
     <header class="">
@@ -82,10 +84,11 @@
       </nav>
     </header>
 
-    <main class="main-formulario">
-      <section class="divFormulario">
-        <h2 class="tituloFormulario">CONTACTO</h2>
-
+    <main class="main-formulario container-fluid py-5">
+      <h2 class="tituloFormulario">CONTACTO</h2>
+      <section
+        class="divFormulario d-flex justify-content-center align-content-center py-5"
+      >
         <form action="#" class="formulario">
           <label for="nombre"> Nombre</label>
           <input
@@ -114,24 +117,29 @@
             rows="10"
             placeholder="Deja tu mensaje"
           ></textarea>
-
-          <input type="submit" />
+          <!-- <input type="submit" /> -->
+          <div>
+            <button class="btn btn-primary w-25 text-center" type="submit">
+              enviar
+            </button>
+          </div>
         </form>
       </section>
     </main>
     <!-- FOOTER -->
-    <footer class="footer shadow p-4 rounded">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="https://m.facebook.com">FACEBOOK</a>
-      </div>
-      <div>
-        <a class="navbar-brand" href="https://www.instagram.com">INSTAGRAM</a>
-      </div>
+    <footer
+      class="footer d-flex justify-content-between shadow py-3 rounded container-fluid"
+    >
+      <a class="navbar-brand mx-4" href="https://m.facebook.com">FACEBOOK</a>
+      <a class="navbar-brand mx-4" href="https://www.instagram.com"
+        >INSTAGRAM</a
+      >
+      <a class="navbar-brand mx-4" href="#">LINKEDIN</a>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"
-  ></script>
 </html>
