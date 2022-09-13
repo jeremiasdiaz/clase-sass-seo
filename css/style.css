@@ -1,6 +1,7 @@
 /*! clases globales */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+
 * {
   margin: 0%;
   padding: 0%;
@@ -38,7 +39,7 @@
 /* INICIO INDEX */
 /* MAIN */
 .main-index {
-  background-image: url('../scss/img/fondoIndex.png');
+  background-image: url('../img/fondoIndex.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
