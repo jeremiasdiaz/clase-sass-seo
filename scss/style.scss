@@ -1,5 +1,5 @@
-/* tipografia */
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "./base/variables";
+@import "./base/extend";
 
 // section
 @import "./section/header";
@@ -13,10 +13,12 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   .footer {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
+
+//fin de estilos globales

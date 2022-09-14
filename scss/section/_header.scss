@@ -2,15 +2,15 @@
 .navbar {
   display: flex;
   flex-wrap: nowrap;
-  box-shadow: #000;
+  box-shadow: $c-Negro;
 }
 
 .nav-barista li {
-  color: #c7bead !important;
+  color: $c-Piel !important;
   font-size: 20px;
   font-weight: 500;
   padding: 0.5em 1.2em;
-  background: rgba(0, 0, 0, 0.012);
+  background: $c-Negro;
   border: 2px solid;
   transition: all 1s ease;
   position: relative;
@@ -18,10 +18,10 @@
 
 //animacion de los links
 .nav-barista li:hover {
-  background: #a09173;
-  color: #a5946e !important;
+  // background: #a09173;
+  color: $c-Mostaza !important;
 }
 
 .color-header {
-  background-color: #c7bead;
+  background-color: $c-Piel;
 }

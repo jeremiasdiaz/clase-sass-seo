@@ -45,11 +45,7 @@ video {
 /* MAQUINAS PARA CAFE */
 /* MAIN */
 .main {
-  background-color: rgba(112, 91, 63, 0.572);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px;
+  background-color: $c-Marron;
 }
 
 .tituloMaquinaria {
@@ -77,9 +73,9 @@ video {
 }
 
 .parrafos-1 {
-  font-family: "Poppins", sans-serif;
+  font-family: $font-family-parrafo;
   font-size: 23px;
-  color: #383838;
+  color: $c-Gris;
   font-weight: 400;
   padding: 0 30px;
 }
@@ -115,7 +111,7 @@ video {
 }
 
 .tituloFormulario {
-  color: rgb(233, 221, 221);
+  color: $c-Blanco;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
@@ -129,9 +125,9 @@ video {
 
 .formulario label {
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: $font-family-parrafo;
   font-weight: bold;
-  color: rgb(244, 177, 96);
+  color: $c-Naranja;
   margin-bottom: 8px;
 }
 
