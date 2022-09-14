@@ -1,0 +1,21 @@
+keaywords:
+-index: cafe, cafecito, cafeteria, Barista, donde proviene el cafe.
+-tipos de cafe:granos, granos de cafe, tostado, tipo de tostados, variacion de tostados.
+-preparaciones: preparaciones, preparaciones de cafe, mezclas, como hacer.
+-maquinaria de cafe: maquinaria de cafe, Marzocco, expresso.
+-contacto:formulario, ayuda, cliente, atencion.
+
+description:
+-index:" I AM BARISTA te contamos un poco sobre la historia del cafe."
+-tipos de cafe:"En granos te contamos las diferencias que hay entre los distintos niveles de tostado"
+-preparaciones:"En preparaciones te contamos como lograr paso a paso la bebida de cafe en sus variaciones"
+-maquinaria de cafe:"Maquinas de cafe te mostramos las cualidades de algunas maquinas que estan echas para expresso"
+-contacto:"en este formulario te ayudamos con cualquier consulta que te surja."
+
+
+contenido:
+-estuve agregando variables de scss
+-aplicando bt a paginas faltantes
+-corrigiendo tamaños y orden del contenido
+-agregando description a las paginas para el SEO
+-ordenando las rutas de las imagenes.
