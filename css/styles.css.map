@@ -2,7 +2,7 @@
   "version": 3,
   "sourceRoot": "",
   "sources": [
-    "../scss/style.scss",
+    "../scss/main.scss",
     "../scss/section/_header.scss",
     "../scss/section/_main.scss",
     "../scss/section/_footer.scss"

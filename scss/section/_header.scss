@@ -10,7 +10,7 @@
   font-size: 20px;
   font-weight: 500;
   padding: 0.5em 1.2em;
-  background: $c-Negro;
+  background: $c-Piel;
   border: 2px solid;
   transition: all 1s ease;
   position: relative;
@@ -18,7 +18,7 @@
 
 //animacion de los links
 .nav-barista li:hover {
-  // background: #a09173;
+  background: $c-Marron;
   color: $c-Mostaza !important;
 }
 

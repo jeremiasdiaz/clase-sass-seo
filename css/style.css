@@ -1,145 +1,109 @@
 /* tipografia */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-}
-
-/* tipografia */
-
-
 /* HEADER */
 .navbar {
   display: flex;
   flex-wrap: nowrap;
-  box-shadow: #000;
-}
+  box-shadow: #000; }
 
 .nav-barista li {
   color: #c7bead !important;
   font-size: 20px;
   font-weight: 500;
   padding: 0.5em 1.2em;
-  background: rgba(0, 0, 0, 0.012);
+  background: #c7bead;
   border: 2px solid;
   transition: all 1s ease;
-  position: relative;
-}
+  position: relative; }
 
 .nav-barista li:hover {
-  background: #a09173;
-  color: #a5946e !important;
-}
+  background: #705b3f8c;
+  color: #a5946e !important; }
 
 .color-header {
-  background-color: #c7bead;
-}
+  background-color: #c7bead; }
 
 /* INICIO INDEX */
-/* MAIN */
 .main-index {
-  background-image: url('../img/fondoIndex.jpg');
+  background-image: url("../img/fondoIndex.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .parrafo {
   font-style: italic;
   font-size: 20px;
-  font-weight: 500;
-}
+  font-weight: 500; }
 
 /* DIF. TIPO DE TOSTADO */
 /* MAIN */
 #fondo {
   min-height: 100vh;
-  position: relative;
-}
+  position: relative; }
 
 video {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
+  object-fit: cover; }
 
 .promo {
   position: relative;
-  z-index: 2;
-}
+  z-index: 3; }
 
 /* FIN DE TIPO DE TOSTADO */
 .mainPreparaciones {
-  background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=600");
-}
+  background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=600"); }
 
 /* MAQUINAS PARA CAFE */
 /* MAIN */
 .main {
-  background-color: rgba(112, 91, 63, 0.572);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px;
-}
+  background-color: #705b3f8c; }
 
 .tituloMaquinaria {
   font-size: 35px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
 
 .contain-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 120px;
-}
+  margin-bottom: 120px; }
 
 .nombreAthina {
   font-size: 15px;
   font-weight: bold;
-  font-size: 22px;
-}
+  font-size: 22px; }
 
 .imgAthina {
   display: flex;
   width: 70%;
-  padding: 20px;
-}
+  padding: 20px; }
 
 .parrafos-1 {
   font-family: "Poppins", sans-serif;
   font-size: 23px;
-  color: #383838;
+  color: #313030;
   font-weight: 400;
-  padding: 0 30px;
-}
+  padding: 0 30px; }
 
 .marcaAthina {
   font-size: 30px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .nombreMarzocco {
   font-size: 25px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .imgMarzocco {
   padding: 20px;
-  width: 50%;
-}
+  width: 50%; }
 
 .marcaMarzocco {
   font-size: 30px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* FIN DE MAQUINAS PARA CAFE */
 /* CONTACTO */
@@ -148,63 +112,51 @@ video {
   background-size: cover;
   display: flex;
   background-image: url(https://images.unsplash.com/photo-1595475038699-283c9aa41e09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 .tituloFormulario {
   color: #e9dddd;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-around;
-}
+  justify-content: space-around; }
 
 .formulario {
   display: flex;
   flex-direction: column;
-  width: 65%;
-}
+  width: 65%; }
 
 .formulario label {
   font-size: 24px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: #f4b160;
-  margin-bottom: 8px;
-}
+  margin-bottom: 8px; }
 
 .formulario textarea {
   width: 100%;
   max-width: 100%;
   height: 100px;
   max-height: 100px;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .formulario input {
   width: 100%;
   height: 40px;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 /* FOOTER */
 .footer {
-  border-top: 2px #bc9454;
   display: flex;
-  background-color: hwb(38 62% 16%);
-}
+  background-color: #c7bead; }
 
 /*! clases globales */
 * {
   margin: 0%;
   padding: 0%;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-/* #sourceMappingURL=style.css.map */
 @media (max-width: 320px) {
   .footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-}
+    align-items: center; } }
