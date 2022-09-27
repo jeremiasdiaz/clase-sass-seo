@@ -5,23 +5,21 @@
   display: flex;
   flex-wrap: nowrap;
   box-shadow: #000; }
-
-.nav-barista li {
-  color: #c7bead !important;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 0.5em 1.2em;
-  background: #c7bead;
-  border: 2px solid;
-  transition: all 1s ease;
-  position: relative; }
-
-.nav-barista li:hover {
-  background: #705b3f8c;
-  color: #a5946e !important; }
+  .navbar .nav-barista li {
+    color: #c7bead !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #c7bead;
+    border: 2px solid;
+    transition: all 1s ease;
+    position: relative; }
 
 .color-header {
   background-color: #c7bead; }
+  .color-header .nav-barista li:hover {
+    background: #705b3f8c;
+    color: #a5946e !important; }
 
 /* INICIO INDEX */
 .main-index {
@@ -29,11 +27,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
-
-.parrafo {
-  font-style: italic;
-  font-size: 20px;
-  font-weight: 500; }
+  .main-index .parrafo {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500; }
 
 /* DIF. TIPO DE TOSTADO */
 /* MAIN */
